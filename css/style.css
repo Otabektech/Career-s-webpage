@@ -232,3 +232,97 @@
   top: 185px;
   border-radius: 10px;
 }
+
+/* What we offer section */
+
+.our-offer-section {
+  position: absolute;
+  width: 1440px;
+  height: 1099px;
+  left: 0px;
+  top: 997px;
+  background: #fafbfc;
+}
+
+.offer-title {
+  position: absolute;
+  width: 414px;
+  height: 73px;
+  left: 512px;
+  top: 108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: #323b4b;
+}
+
+.offer-text {
+  position: absolute;
+  width: 810px;
+  height: 72px;
+  left: 159px;
+  top: 105px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #8a94a6;
+}
+
+.full-rectangle {
+  position: absolute;
+  width: 604px;
+  height: 285px;
+  left: 100px;
+  top: 369px;
+
+  background: #ffffff;
+  box-shadow: 0px 50px 77px;
+  box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+  border-radius: 15px;
+}
+
+.full-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 38px;
+  top: 30px;
+  border-radius: 50px;
+
+  background: #e5f1ff;
+}
+
+.package-img {
+  position: absolute;
+  width: 29.26px;
+  height: 29.26px;
+  left: 25.52px;
+  top: 428.25px;
+}
+
+/* Vacancy section */
+
+.vacancy-heading {
+  width: 94px;
+  height: 29px;
+  left: 312px;
+  top: 363.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height, or 121% */
+
+  /* Text 1 */
+
+  color: #323b4b;
+}
