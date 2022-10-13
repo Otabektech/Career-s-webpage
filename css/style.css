@@ -1,17 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* header section */
 
 .header {
-  width: 1440px;
-  height: 133px;
+  width: 144rem;
+  height: 13.3rem;
   left: 0px;
   top: 0px;
-  padding: 100px;
+  padding: 10rem;
 
   display: flex;
   justify-content: space-between;
@@ -21,266 +15,277 @@
 
 .logo {
   position: absolute;
-  width: 182px;
-  height: 54px;
-  left: 100px;
-  top: 39px;
+  width: 18.2rem;
+  height: 5.4rem;
+  left: 10rem;
+  top: 3.9rem;
+  right: 115.8rem;
+  bottom: 90.4rem;
 }
 
 /* Home */
 .home:link,
 .home:visited {
   position: absolute;
-  width: 57px;
-  height: 24px;
-  left: 694.5px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #8a94a6;
-  text-decoration: none;
+  width: 5.7rem;
+  left: 69.45rem;
 }
 
-.home:hover {
-  text-decoration: underline;
-  font-weight: 1000;
+.home-arrow {
+  position: absolute;
+  width: 1.2rem;
+  height: 0.6rem;
+  left: 76.7rem;
+  top: 6.3rem;
 }
 
 /* Pages */
 .pages:link,
 .pages:visited {
   position: absolute;
-  width: 60px;
-  height: 24px;
-  left: 801.5px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #8a94a6;
-  text-decoration: none;
+  width: 6rem;
+  left: 80.15rem;
 }
 
-.pages:hover {
-  text-decoration: underline;
-  font-weight: 1000;
+.pages-arrow {
+  position: absolute;
+  width: 1.2rem;
+  height: 0.6rem;
+  left: 87.7rem;
+  top: 6.3rem;
 }
 
 /* Blog */
 .blog:link,
 .blog:visited {
   position: absolute;
-  width: 44px;
-  height: 24px;
-  left: 917.5px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #8a94a6;
-  text-decoration: none;
+  width: 4.4rem;
+  left: 91.75rem;
 }
 
-.blog:hover {
-  text-decoration: underline;
-  font-weight: 1000;
+.blog-arrow {
+  position: absolute;
+  width: 1.2rem;
+  height: 0.6rem;
+  left: 97.6rem;
+  top: 6.3rem;
 }
 
 /* Portfolio */
 .portfolio:link,
 .portfolio:visited {
   position: absolute;
-  width: 83px;
-  height: 24px;
-  left: 1016.5px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #8a94a6;
-  text-decoration: none;
+  width: 8.3rem;
+  left: 101.65rem;
 }
 
-.portfolio:hover {
-  text-decoration: underline;
-  font-weight: 1000;
+.portfolio-arrow {
+  position: absolute;
+  width: 1.2rem;
+  height: 0.6rem;
+  left: 111.5rem;
+  top: 6.3rem;
 }
 
 /* Button */
 .get-started-button {
+  cursor: pointer;
   position: absolute;
-  width: 179px;
-  height: 57px;
-  left: 1161px;
-  top: 38px;
+  width: 17.9rem;
+  height: 5.7rem;
+  left: 116.1rem;
+  top: 3.8rem;
 
   background: #377dff;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 /* Get Started */
+
 .get-started {
+  cursor: pointer;
   position: absolute;
-  left: 10%;
-  right: 9.24%;
-  top: 28.5%;
-  bottom: 41.35%;
+  left: 119.4rem;
+  right: 13.3rem;
+  top: 5.4rem;
+  bottom: 91.9rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   text-align: center;
-  color: #ffffff;
+  color: rgb(11, 9, 9);
 }
 
 .get-started:hover {
   text-decoration: underline;
-  font-weight: 1000;
+  font-weight: 700;
 }
 
-/* Small team section */
+/* ////// Small team section //////*/
 
 .small-team {
-  width: 1440px;
-  height: 864px;
+  width: 144rem;
+  height: 86.4rem;
   left: 0px;
-  top: 133px;
+  top: 13.3rem;
 }
 
 .small-team-heading {
   position: absolute;
-  width: 528px;
-  height: 219px;
-  left: 100px;
-  top: 216.63px;
+  width: 52.8rem;
+  height: 21.9rem;
+  left: 10rem;
+  top: 21.663rem;
+  bottom: 42.837rem;
+  right: 81.2rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 6rem;
+  line-height: 7.3rem;
   color: #323b4b;
 }
 
 .small-team-text {
   position: absolute;
-  width: 466px;
-  height: 101px;
-  left: 100px;
-  top: 469.39px;
+  width: 46.6rem;
+  height: 10.1rem;
+  left: 10rem;
+  top: 46.939rem;
+  padding-top: 3.376rem;
+  right: 87.4rem;
+  bottom: 29.361rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5rem;
   color: #8a94a6;
 }
 
 .small-team-arrow:link,
 .small-team-arrow:visited {
   position: absolute;
-  width: 154px;
-  height: 24px;
-  left: 99px;
-  top: 606px;
+  width: 15.4rem;
+  height: 2.4rem;
+  left: 9.9rem;
+  top: 60.6rem;
+  bottom: 23.4rem;
+  right: 118.7rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding-top: 3.561rem;
   color: #377dff;
   text-decoration: none;
 }
 
-.small-team-arrow:hover {
+.small-team-arrow:active {
   text-decoration: underline;
   font-weight: 1000;
 }
 
 .small-team-arrow-img {
   position: absolute;
-  width: 20px;
-  height: 19.47px;
-  left: 265px;
-  top: 611px;
+  width: 2rem;
+  height: 1.947rem;
+  left: 26.8rem;
+  top: 60.973rem;
+  bottom: 23.48rem;
+  padding-top: 3.561rem;
+  right: 115.214rem;
   background: #ffffff;
 }
 
 /* Image of man standing */
 .small-team-img {
   position: absolute;
-  width: 652px;
-  height: 697px;
-  left: 712px;
-  top: 185px;
-  border-radius: 10px;
+  width: 60.4rem;
+  height: 61.6rem;
+  left: 73.6rem;
+  top: 12.4rem;
+  border-radius: 1.5rem;
+}
+
+.play {
+  position: absolute;
+  cursor: pointer;
+  width: 7.7rem;
+  height: 7.7rem;
+  left: 78rem;
+  top: 17rem;
+  right: 58.3rem;
+  bottom: 61.7rem;
+}
+
+.white-tri {
+  cursor: pointer;
+  position: absolute;
+  width: 1.527rem;
+  height: 2.524rem;
+  left: 81.275rem;
+  top: 19.569rem;
 }
 
 /* What we offer section */
 
 .our-offer-section {
   position: absolute;
-  width: 1440px;
-  height: 1099px;
+  width: 144rem;
+  height: 109.9rem;
   left: 0px;
-  top: 997px;
+  top: 99.7rem;
   background: #fafbfc;
 }
 
 .offer-title {
   position: absolute;
-  width: 414px;
-  height: 73px;
-  left: 512px;
-  top: 108px;
+  width: 41.4rem;
+  height: 7.3rem;
+  left: 51.2rem;
+  top: 10.8rem;
+  right: 51.4rem;
+  bottom: 91.8rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 6rem;
+  line-height: 7.3rem;
   color: #323b4b;
 }
 
 .offer-text {
   position: absolute;
-  width: 810px;
-  height: 72px;
-  left: 159px;
-  top: 105px;
+  width: 81rem;
+  height: 7.2rem;
+  left: 11.5rem;
+  top: 10.5rem;
+  bottom: 81.1rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5rem;
   text-align: center;
   color: #8a94a6;
 }
 
 .full-rectangle {
   position: absolute;
-  width: 604px;
-  height: 285px;
-  left: 100px;
-  top: 369px;
+  width: 60.4rem;
+  height: 28.5rem;
+  left: 10rem;
+  top: 36.9rem;
 
   background: #ffffff;
   box-shadow: 0px 50px 77px;
@@ -290,11 +295,11 @@
 
 .full-circle {
   position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 38px;
-  top: 30px;
-  border-radius: 50px;
+  width: 8rem;
+  height: 8rem;
+  left: 13.1rem;
+  top: 40.1rem;
+  border-radius: 5rem;
 
   background: #e5f1ff;
 }
@@ -303,26 +308,1008 @@
   position: absolute;
   width: 29.26px;
   height: 29.26px;
-  left: 25.52px;
+  left: 156.32px;
   top: 428.25px;
+}
+
+.package-title {
+  position: absolute;
+  width: 260px;
+  height: 34px;
+  left: 131px;
+  top: 510.36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #323b4b;
+}
+
+.package-text {
+  position: absolute;
+  width: 537px;
+  height: 67px;
+  left: 131px;
+  top: 565.59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8a94a6;
+}
+
+/* Equipped workplace section */
+.equipped-rectangle {
+  position: absolute;
+  width: 604px;
+  height: 285px;
+  left: 736px;
+  top: 369px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.e-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 767px;
+  top: 401px;
+  border-radius: 50px;
+
+  background: #eafaf3;
+}
+
+.workplace-img {
+  position: absolute;
+  width: 27.98px;
+  height: 34.97px;
+  left: 793px;
+  top: 424.28px;
+}
+
+.green-rect {
+  position: absolute;
+  width: 10.5px;
+  height: 5.25px;
+  left: 801.74px;
+  top: 420.79px;
+  background: #2dca8c;
+}
+
+.workplace-title {
+  position: absolute;
+  width: 280px;
+  height: 34px;
+  left: 767px;
+  top: 510.36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #323b4b;
+}
+
+.workplace-text {
+  position: absolute;
+  width: 542px;
+  height: 60px;
+  left: 767px;
+  top: 565.59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8a94a6;
+}
+
+/* Free meals section */
+.free-rectangle {
+  position: absolute;
+  width: 604px;
+  height: 285px;
+  left: 100px;
+  top: 691px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.free-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 131px;
+  top: 723px;
+
+  border-radius: 50px;
+  background: #fff2d8;
+}
+
+.meals-img {
+  position: absolute;
+  width: 33.76px;
+  height: 19.55px;
+  left: 151.56px;
+  top: 754.57px;
+}
+
+.meals-title {
+  position: absolute;
+  width: 149px;
+  height: 34px;
+  left: 131px;
+  top: 832.36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #323b4b;
+}
+
+.meals-text {
+  position: absolute;
+  width: 537px;
+  height: 60px;
+  left: 131px;
+  top: 887.59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8a94a6;
+}
+
+/* Game room section */
+.game-rectangle {
+  position: absolute;
+  width: 604px;
+  height: 285px;
+  left: 736px;
+  top: 691px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.game-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 767px;
+  top: 723px;
+
+  border-radius: 50px;
+  background: #ffe3de;
+}
+
+.game-img {
+  position: absolute;
+  width: 39.62px;
+  height: 24.9px;
+  left: 786.66px;
+  top: 754.66px;
+}
+
+.game-title {
+  position: absolute;
+  width: 157px;
+  height: 34px;
+  left: 767px;
+  top: 832.36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.game-text {
+  position: absolute;
+  width: 525px;
+  height: 60px;
+  left: 767px;
+  top: 887.59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8a94a6;
+}
+
+/* Dream Job section */
+.dream-job-section {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 2096px;
+
+  background: #ffffff;
+}
+
+.dream-job-title {
+  position: absolute;
+  width: 55.5rem;
+  height: 22.1rem;
+  left: 84.2rem;
+  top: 26.963rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6rem;
+  text-align: left;
+  line-height: 7.3rem;
+  color: #323b4b;
+}
+
+.image-10 {
+  position: absolute;
+  width: 604px;
+  height: 616px;
+  left: 100px;
+  top: 142px;
+  border-radius: 10px;
+}
+
+.dream-job-text {
+  position: absolute;
+  width: 47rem;
+  padding-top: 3.176rem;
+  height: 10.2rem;
+  left: 84.2rem;
+  top: 52.239rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
 }
 
 /* Vacancy section */
 
-.vacancy-heading {
+.free-vacancy-section {
+  position: absolute;
+  width: 1440px;
+  height: 1231px;
+  left: 0px;
+  top: 2996px;
+  background: #fafbfc;
+}
+.vacancy-title {
+  position: absolute;
+  width: 390px;
+  height: 73px;
+  left: 524px;
+  top: 108px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: #323b4b;
+  text-align: center;
+}
+
+.vacancy-description {
+  position: absolute;
+  width: 769px;
+  height: 70px;
+  left: 336px;
+  top: 216px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+
+  text-align: center;
+  color: #8a94a6;
+}
+
+/* Vacancy categories */
+.dep {
+  width: 140px;
+  left: 704px;
+}
+
+.location {
+  width: 101px;
+  left: 948px;
+}
+
+.position {
   width: 94px;
-  height: 29px;
   left: 312px;
-  top: 363.54px;
+}
+
+/* Vacancy Row 1 */
+.rect-1 {
+  position: absolute;
+  width: 880px;
+  height: 115px;
+  left: 280px;
+  top: 413px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.motion-designer {
+  position: absolute;
+  width: 160px;
+  height: 24px;
+  left: 312px;
+  top: 457.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  color: #323b4b;
+}
+
+.design {
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 704px;
+  top: 457.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #8a94a6;
+}
+
+.SF {
+  position: absolute;
+  width: 134px;
+  height: 24px;
+  left: 948px;
+  top: 457.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  color: #8a94a6;
+}
+
+/* Vacancy Row 2 */
+
+.rect-2 {
+  position: absolute;
+  width: 880px;
+  height: 115px;
+  left: 280px;
+  top: 553px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+  border-radius: 15px;
+}
+
+.art-director {
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 312px;
+  top: 597.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  color: #323b4b;
+}
+
+.design-2 {
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 704px;
+  top: 597.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #8a94a6;
+}
+
+.SF-2 {
+  position: absolute;
+  width: 134px;
+  height: 24px;
+  left: 948px;
+  top: 597.29px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+/* Vacancy Row 3 */
+
+.rect-3 {
+  position: absolute;
+  width: 880px;
+  height: 115px;
+  left: 280px;
+  top: 693px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.customer-relations {
+  position: absolute;
+  width: 190px;
+  height: 24px;
+  left: 312px;
+  top: 737.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  color: #323b4b;
+}
+
+.support {
+  position: absolute;
+  width: 78px;
+  height: 24px;
+  left: 704px;
+  top: 737.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.NY {
+  position: absolute;
+  width: 92px;
+  height: 24px;
+  left: 948px;
+  top: 737.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+/* Vacancy Row 4 */
+.rect-4 {
+  position: absolute;
+  width: 880px;
+  height: 115px;
+  left: 280px;
+  top: 833px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.react-dev {
+  position: absolute;
+  width: 160px;
+  height: 24px;
+  left: 312px;
+  top: 877.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  color: #323b4b;
+}
+
+.engineering {
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 704px;
+  top: 877.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.SF-3 {
+  position: absolute;
+  width: 134px;
+  height: 24px;
+  left: 948px;
+  top: 877.29px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+/* Resume Rectangle */
+.res-rect {
+  cursor: pointer;
+  position: absolute;
+  width: 604px;
+  height: 66px;
+  left: 418px;
+  top: 1040px;
+  background: #e5f1ff;
+  border-radius: 10px;
+}
+
+.res-text {
+  cursor: pointer;
+  position: absolute;
+  width: 397px;
+  height: 24px;
+  left: 521px;
+  top: 1061px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #377dff;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 661px;
+  left: 0px;
+  top: 4227px;
+
+  background: #ffffff;
+}
+
+.logo-2 {
+  position: absolute;
+  width: 149px;
+  height: 44px;
+  left: 101px;
+  top: 132px;
+}
+
+.footer-logo-description {
+  position: absolute;
+  width: 282px;
+  height: 110px;
+  left: 99.53px;
+  top: 203.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  color: #8a94a6;
+}
+
+/* Footer Home */
+
+.footer-home {
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  left: 525px;
+  top: 147.12px;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  /* identical to box height, or 121% */
-
-  /* Text 1 */
-
   color: #323b4b;
 }
+
+.d-app {
+  cursor: pointer;
+  position: absolute;
+  width: 124px;
+  height: 24px;
+  left: 526px;
+  top: 203.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.m-app {
+  cursor: pointer;
+  position: absolute;
+  width: 109px;
+  height: 24px;
+  left: 525px;
+  top: 246.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.saas {
+  cursor: pointer;
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 525px;
+  top: 289.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.event {
+  cursor: pointer;
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 525px;
+  top: 332.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.software {
+  cursor: pointer;
+  position: absolute;
+  width: 87px;
+  height: 24px;
+  left: 525px;
+  top: 375.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+/* Footer Pages */
+
+.footer-pages {
+  position: absolute;
+  width: 72px;
+  height: 29px;
+  left: 737px;
+  top: 147px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #323b4b;
+}
+
+.a-us {
+  cursor: pointer;
+  position: absolute;
+  width: 89px;
+  height: 24px;
+  left: 738px;
+  top: 203.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.careers {
+  cursor: pointer;
+  position: absolute;
+  width: 76px;
+  height: 24px;
+  left: 737px;
+  top: 246.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.case {
+  cursor: pointer;
+  position: absolute;
+  width: 127px;
+  height: 24px;
+  left: 737px;
+  top: 289.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.pricing {
+  cursor: pointer;
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 737px;
+  top: 332.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+/* Footer Blog */
+
+.footer-blog {
+  position: absolute;
+  width: 52px;
+  height: 29px;
+  left: 950px;
+  top: 147.12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #323b4b;
+}
+
+.b-list {
+  cursor: pointer;
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  left: 951px;
+  top: 203.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.b-article {
+  cursor: pointer;
+  position: absolute;
+  width: 111px;
+  height: 24px;
+  left: 950px;
+  top: 246.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.news {
+  cursor: pointer;
+  position: absolute;
+  width: 103px;
+  height: 24px;
+  left: 950px;
+  top: 289.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+/* Footer Portfolio */
+
+.footer-portfolio {
+  position: absolute;
+  width: 100px;
+  height: 29px;
+  left: 1161px;
+  top: 147.12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #323b4b;
+}
+
+.port {
+  cursor: pointer;
+  position: absolute;
+  width: 82px;
+  height: 24px;
+  left: 1162px;
+  top: 203.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+.single {
+  cursor: pointer;
+  position: absolute;
+  width: 113px;
+  height: 24px;
+  left: 1161px;
+  top: 246.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8a94a6;
+}
+
+/* Social Media Logos */
+.dribble {
+  cursor: pointer;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 112px;
+  top: 357px;
+}
+
+.facebook {
+  cursor: pointer;
+  position: absolute;
+  width: 14px;
+  height: 28px;
+  left: 193px;
+  top: 356px;
+}
+
+.twitter {
+  cursor: pointer;
+  position: absolute;
+  width: 28px;
+  height: 22.75px;
+  left: 261px;
+  top: 358.62px;
+}
+
+.youtube {
+  cursor: pointer;
+  position: absolute;
+  width: 28px;
+  height: 19.77px;
+  left: 335px;
+  top: 360px;
+}
+/* Copyright Section */
+
+.copy {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.copyright {
+  position: absolute;
+  width: 441px;
+  height: 22px;
+  left: 101px;
+  top: 495.54px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #8a94a6;
+}
+/* .vacancy-position-list {
+  display: grid;
+  grid-template-columns: 3 1fr;
+} */
