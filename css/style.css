@@ -5,11 +5,13 @@
   height: 13.3rem;
   left: 0px;
   top: 0px;
-  padding: 10rem;
+  /* padding: 10rem; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex;
+  justify-content: space-between;   */
+
   background-color: #ffffff;
 }
 
@@ -29,6 +31,15 @@
   position: absolute;
   width: 5.7rem;
   left: 69.45rem;
+  height: 2.4rem;
+  top: 5.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #8a94a6;
+  text-decoration: none;
 }
 
 .home-arrow {
@@ -45,6 +56,15 @@
   position: absolute;
   width: 6rem;
   left: 80.15rem;
+  height: 2.4rem;
+  top: 5.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #8a94a6;
+  text-decoration: none;
 }
 
 .pages-arrow {
@@ -61,6 +81,15 @@
   position: absolute;
   width: 4.4rem;
   left: 91.75rem;
+  height: 2.4rem;
+  top: 5.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #8a94a6;
+  text-decoration: none;
 }
 
 .blog-arrow {
@@ -77,6 +106,15 @@
   position: absolute;
   width: 8.3rem;
   left: 101.65rem;
+  height: 2.4rem;
+  top: 5.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #8a94a6;
+  text-decoration: none;
 }
 
 .portfolio-arrow {
@@ -95,11 +133,16 @@
   height: 5.7rem;
   left: 116.1rem;
   top: 3.8rem;
+  bottom: 90.2rem;
 
   background: #377dff;
   border-radius: 1rem;
 }
 
+.main-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 /* Get Started */
 
 .get-started {
@@ -107,8 +150,10 @@
   position: absolute;
   left: 119.4rem;
   right: 13.3rem;
-  top: 5.4rem;
+  top: 3.7rem;
   bottom: 91.9rem;
+  width: 11.3rem;
+  height: 2.4rem;
 
   font-family: "Inter";
   font-style: normal;
@@ -116,12 +161,12 @@
   font-size: 2rem;
   line-height: 2.4rem;
   text-align: center;
-  color: rgb(11, 9, 9);
+  color: white;
 }
 
 .get-started:hover {
   text-decoration: underline;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* ////// Small team section //////*/
@@ -134,6 +179,8 @@
 }
 
 .small-team-heading {
+  margin-top: 3.376rem;
+  margin-right: 8.3rem;
   position: absolute;
   width: 52.8rem;
   height: 21.9rem;
@@ -151,12 +198,13 @@
 }
 
 .small-team-text {
+  margin-bottom: 3.561rem;
   position: absolute;
   width: 46.6rem;
   height: 10.1rem;
   left: 10rem;
   top: 46.939rem;
-  padding-top: 3.376rem;
+  /* padding-top: 3.376rem; */
   right: 87.4rem;
   bottom: 29.361rem;
 
@@ -183,7 +231,7 @@
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.4rem;
-  padding-top: 3.561rem;
+  /* padding-top: 3.561rem; */
   color: #377dff;
   text-decoration: none;
 }
@@ -200,7 +248,7 @@
   left: 26.8rem;
   top: 60.973rem;
   bottom: 23.48rem;
-  padding-top: 3.561rem;
+  /* padding-top: 3.561rem; */
   right: 115.214rem;
   background: #ffffff;
 }
@@ -215,7 +263,7 @@
   border-radius: 1.5rem;
 }
 
-.play {
+.blue-cir {
   position: absolute;
   cursor: pointer;
   width: 7.7rem;
@@ -247,6 +295,7 @@
 }
 
 .offer-title {
+  margin: 3.5rem;
   position: absolute;
   width: 41.4rem;
   height: 7.3rem;
@@ -306,128 +355,129 @@
 
 .package-img {
   position: absolute;
-  width: 29.26px;
-  height: 29.26px;
-  left: 156.32px;
-  top: 428.25px;
+  width: 2.926rem;
+  height: 2.926rem;
+  left: 15.632rem;
+  top: 42.825rem;
 }
 
 .package-title {
   position: absolute;
-  width: 260px;
-  height: 34px;
-  left: 131px;
-  top: 510.36px;
+  width: 26rem;
+  height: 3.4rem;
+  left: 13.1rem;
+  top: 51.036rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
   color: #323b4b;
 }
 
 .package-text {
   position: absolute;
-  width: 537px;
-  height: 67px;
-  left: 131px;
-  top: 565.59px;
+  width: 53.7rem;
+  height: 6.7rem;
+  left: 13.1rem;
+  top: 56.559rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.8rem;
+  line-height: 3rem;
   color: #8a94a6;
 }
 
 /* Equipped workplace section */
 .equipped-rectangle {
   position: absolute;
-  width: 604px;
-  height: 285px;
-  left: 736px;
-  top: 369px;
+  width: 60.4rem;
+  height: 28.5rem;
+  left: 73.6rem;
+  top: 36.9rem;
 
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .e-circle {
   position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 767px;
-  top: 401px;
-  border-radius: 50px;
+  width: 8rem;
+  height: 8rem;
+  left: 76.7rem;
+  top: 40.1rem;
+  border-radius: 5rem;
 
   background: #eafaf3;
 }
 
 .workplace-img {
   position: absolute;
-  width: 27.98px;
-  height: 34.97px;
-  left: 793px;
-  top: 424.28px;
+  width: 2.798rem;
+  height: 3.497rem;
+  left: 79.3rem;
+  top: 42.428rem;
 }
 
 .green-rect {
   position: absolute;
-  width: 10.5px;
-  height: 5.25px;
-  left: 801.74px;
-  top: 420.79px;
+  width: 1.05rem;
+  height: 0.525rem;
+  left: 80.174rem;
+  top: 42.079rem;
   background: #2dca8c;
 }
 
 .workplace-title {
   position: absolute;
-  width: 280px;
-  height: 34px;
-  left: 767px;
-  top: 510.36px;
+  width: 28rem;
+  height: 3.4rem;
+  left: 76.7rem;
+  top: 51.036rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
   color: #323b4b;
 }
 
 .workplace-text {
   position: absolute;
-  width: 542px;
-  height: 60px;
-  left: 767px;
-  top: 565.59px;
+  width: 54.2rem;
+  height: 6rem;
+  left: 76.7rem;
+  top: 56.559rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.8rem;
+  line-height: 3rem;
   color: #8a94a6;
 }
 
 /* Free meals section */
+
 .free-rectangle {
   position: absolute;
-  width: 604px;
-  height: 285px;
-  left: 100px;
-  top: 691px;
+  width: 60.4rem;
+  height: 28.5rem;
+  left: 10rem;
+  top: 69.1rem;
 
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .free-circle {
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 8rem;
+  height: 8rem;
   left: 131px;
   top: 723px;
 
@@ -545,6 +595,7 @@
 }
 
 .dream-job-title {
+  margin-top: 3.176rem;
   position: absolute;
   width: 55.5rem;
   height: 22.1rem;
@@ -562,20 +613,21 @@
 
 .image-10 {
   position: absolute;
-  width: 604px;
-  height: 616px;
-  left: 100px;
-  top: 142px;
-  border-radius: 10px;
+  width: 60.4rem;
+  height: 61.6rem;
+  left: 10rem;
+  top: 14.2rem;
+  border-radius: 1rem;
 }
 
 .dream-job-text {
   position: absolute;
   width: 47rem;
-  padding-top: 3.176rem;
+  /* padding-top: 3.176rem; */
   height: 10.2rem;
   left: 84.2rem;
   top: 52.239rem;
+  margin-top: 3.176rem;
 
   font-family: "Inter";
   font-style: normal;
@@ -589,40 +641,41 @@
 
 .free-vacancy-section {
   position: absolute;
-  width: 1440px;
-  height: 1231px;
+  width: 144rem;
+  height: 123.1rem;
   left: 0px;
-  top: 2996px;
+  top: 299.6rem;
   background: #fafbfc;
 }
 .vacancy-title {
+  margin-top: 3.5rem;
   position: absolute;
-  width: 390px;
-  height: 73px;
-  left: 524px;
-  top: 108px;
+  width: 39rem;
+  height: 7.3rem;
+  left: 52.4rem;
+  top: 10.8rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 6rem;
+  line-height: 7.3rem;
   color: #323b4b;
   text-align: center;
 }
 
 .vacancy-description {
   position: absolute;
-  width: 769px;
-  height: 70px;
-  left: 336px;
-  top: 216px;
+  width: 76.9rem;
+  height: 7rem;
+  left: 33.6rem;
+  top: 21.6rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5rem;
 
   text-align: center;
   color: #8a94a6;
@@ -630,44 +683,77 @@
 
 /* Vacancy categories */
 .dep {
-  width: 140px;
-  left: 704px;
+  width: 14rem;
+  left: 70.4rem;
+  position: absolute;
+  height: 2.9rem;
+  top: 36.354rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: #323b4b;
 }
 
 .location {
-  width: 101px;
-  left: 948px;
+  width: 10.1rem;
+  left: 94.8rem;
+  position: absolute;
+  height: 2.9rem;
+  top: 36.354rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: #323b4b;
 }
 
 .position {
-  width: 94px;
-  left: 312px;
+  width: 9.4rem;
+  left: 31.2rem;
+  position: absolute;
+  height: 2.9rem;
+  top: 36.354rem;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: #323b4b;
 }
 
 /* Vacancy Row 1 */
 .rect-1 {
   position: absolute;
-  width: 880px;
-  height: 115px;
-  left: 280px;
-  top: 413px;
+  width: 88rem;
+  height: 11.5rem;
+  left: 28rem;
+  top: 41.3rem;
 
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .motion-designer {
   position: absolute;
-  width: 160px;
-  height: 24px;
-  left: 312px;
-  top: 457.29px;
+  width: 16rem;
+  height: 2.4rem;
+  left: 31.2rem;
+  top: 45.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
@@ -676,32 +762,32 @@
 
 .design {
   position: absolute;
-  width: 67px;
-  height: 24px;
-  left: 704px;
-  top: 457.29px;
+  width: 6.7rem;
+  height: 2.4rem;
+  left: 70.4rem;
+  top: 45.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
 
   color: #8a94a6;
 }
 
 .SF {
   position: absolute;
-  width: 134px;
-  height: 24px;
-  left: 948px;
-  top: 457.29px;
+  width: 13.4rem;
+  height: 2.4rem;
+  left: 94.8rem;
+  top: 45.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
@@ -712,29 +798,30 @@
 
 .rect-2 {
   position: absolute;
-  width: 880px;
-  height: 115px;
-  left: 280px;
-  top: 553px;
+  width: 88rem;
+  height: 11.5rem;
+  left: 28rem;
+  top: 55.3rem;
 
   background: #ffffff;
 
   box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .art-director {
+  margin-bottom: 4.767rem;
   position: absolute;
-  width: 114px;
-  height: 24px;
-  left: 312px;
-  top: 597.29px;
+  width: 11.4rem;
+  height: 2.4rem;
+  left: 31.2rem;
+  top: 59.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
@@ -743,26 +830,26 @@
 
 .design-2 {
   position: absolute;
-  width: 67px;
-  height: 24px;
-  left: 704px;
-  top: 597.29px;
+  width: 6.7rem;
+  height: 2.4rem;
+  left: 70.4rem;
+  top: 59.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
 
   color: #8a94a6;
 }
 
 .SF-2 {
   position: absolute;
-  width: 134px;
-  height: 24px;
-  left: 948px;
-  top: 597.29px;
+  width: 13.4rem;
+  height: 2.4rem;
+  left: 94.8rem;
+  top: 59.729rem;
 
   white-space: nowrap;
   overflow: hidden;
@@ -771,8 +858,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
@@ -780,26 +867,26 @@
 
 .rect-3 {
   position: absolute;
-  width: 880px;
-  height: 115px;
-  left: 280px;
-  top: 693px;
+  width: 88rem;
+  height: 11.5;
+  left: 28rem;
+  top: 69.3rem;
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .customer-relations {
   position: absolute;
-  width: 190px;
-  height: 24px;
-  left: 312px;
-  top: 737.29px;
+  width: 19rem;
+  height: 2.4rem;
+  left: 31.2rem;
+  top: 73.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
@@ -808,57 +895,57 @@
 
 .support {
   position: absolute;
-  width: 78px;
-  height: 24px;
-  left: 704px;
-  top: 737.29px;
+  width: 7.8rem;
+  height: 2.4rem;
+  left: 70.4rem;
+  top: 73.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .NY {
   position: absolute;
-  width: 92px;
-  height: 24px;
-  left: 948px;
-  top: 737.29px;
+  width: 9.2rem;
+  height: 2.4rem;
+  left: 94.8rem;
+  top: 73.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 /* Vacancy Row 4 */
 .rect-4 {
   position: absolute;
-  width: 880px;
-  height: 115px;
-  left: 280px;
-  top: 833px;
+  width: 88rem;
+  height: 11.5rem;
+  left: 28rem;
+  top: 83.3rem;
   background: #ffffff;
-  border-radius: 15px;
+  border-radius: 1.5rem;
 }
 
 .react-dev {
   position: absolute;
-  width: 160px;
-  height: 24px;
-  left: 312px;
-  top: 877.29px;
+  width: 16rem;
+  height: 2.4rem;
+  left: 31.2rem;
+  top: 87.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
@@ -867,31 +954,31 @@
 
 .engineering {
   position: absolute;
-  width: 114px;
-  height: 24px;
-  left: 704px;
-  top: 877.29px;
+  width: 11.4rem;
+  height: 2.4rem;
+  left: 70.4rem;
+  top: 87.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .SF-3 {
   position: absolute;
-  width: 134px;
-  height: 24px;
-  left: 948px;
-  top: 877.29px;
+  width: 13.4rem;
+  height: 2.4rem;
+  left: 94.8rem;
+  top: 87.729rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
   white-space: nowrap;
   overflow: hidden;
@@ -902,27 +989,32 @@
 .res-rect {
   cursor: pointer;
   position: absolute;
-  width: 604px;
-  height: 66px;
-  left: 418px;
-  top: 1040px;
+  width: 60.4rem;
+  height: 6.6rem;
+  left: 41.8rem;
+  top: 104rem;
   background: #e5f1ff;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .res-text {
+  margin-top: 2.1rem;
+  margin-bottom: 2.1rem;
+
   cursor: pointer;
   position: absolute;
-  width: 397px;
-  height: 24px;
-  left: 521px;
-  top: 1061px;
+  width: 39.7rem;
+  height: 2.4em;
+  left: 52.1rem;
+  top: 104rem;
+  bottom: 14.6rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+
+  line-height: 2.4rem;
   color: #377dff;
 }
 
@@ -930,34 +1022,34 @@
 
 footer {
   position: absolute;
-  width: 1440px;
-  height: 661px;
+  width: 144rem;
+  height: 66.1rem;
   left: 0px;
-  top: 4227px;
+  top: 422.7rem;
 
   background: #ffffff;
 }
 
 .logo-2 {
   position: absolute;
-  width: 149px;
-  height: 44px;
-  left: 101px;
-  top: 132px;
+  width: 14.9rem;
+  height: 4.4rem;
+  left: 10.1rem;
+  top: 13.2rem;
 }
 
 .footer-logo-description {
   position: absolute;
-  width: 282px;
-  height: 110px;
-  left: 99.53px;
-  top: 203.54px;
+  width: 28.2rem;
+  height: 11rem;
+  left: 9.953rem;
+  top: 20.354rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5rem;
   color: #8a94a6;
 }
 
@@ -965,240 +1057,241 @@ footer {
 
 .footer-home {
   position: absolute;
-  width: 69px;
-  height: 29px;
-  left: 525px;
-  top: 147.12px;
+  width: 6.9rem;
+  height: 2.9rem;
+  left: 52.5rem;
+  top: 14.712rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
   color: #323b4b;
 }
 
 .d-app {
   cursor: pointer;
   position: absolute;
-  width: 124px;
-  height: 24px;
-  left: 526px;
-  top: 203.54px;
+  width: 12.4rem;
+  height: 2.4rem;
+  left: 52.6rem;
+  top: 20.354rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .m-app {
   cursor: pointer;
   position: absolute;
-  width: 109px;
-  height: 24px;
-  left: 525px;
-  top: 246.54px;
+  width: 10.9rem;
+  height: 2.4rem;
+  left: 52.5rem;
+  top: 24.654rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .saas {
+  margin-top: 1.9rem;
   cursor: pointer;
   position: absolute;
-  width: 49px;
-  height: 24px;
-  left: 525px;
-  top: 289.54px;
+  width: 4.9rem;
+  height: 2.4rem;
+  left: 52.5rem;
+  top: 28.954rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .event {
   cursor: pointer;
   position: absolute;
-  width: 55px;
-  height: 24px;
-  left: 525px;
-  top: 332.54px;
+  width: 5.5rem;
+  height: 2.4rem;
+  left: 52.5rem;
+  top: 33.254rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .software {
   cursor: pointer;
   position: absolute;
-  width: 87px;
-  height: 24px;
-  left: 525px;
-  top: 375.54px;
+  width: 8.7rem;
+  height: 2.4rem;
+  left: 52.5rem;
+  top: 37.554rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 /* Footer Pages */
 
 .footer-pages {
   position: absolute;
-  width: 72px;
-  height: 29px;
-  left: 737px;
-  top: 147px;
+  width: 7.2rem;
+  height: 2.9rem;
+  left: 73.7rem;
+  top: 14.7rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
   color: #323b4b;
 }
 
 .a-us {
   cursor: pointer;
   position: absolute;
-  width: 89px;
-  height: 24px;
-  left: 738px;
-  top: 203.54px;
+  width: 8.9rem;
+  height: 2.4rem;
+  left: 73.8rem;
+  top: 20.354rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .careers {
   cursor: pointer;
   position: absolute;
-  width: 76px;
-  height: 24px;
-  left: 737px;
-  top: 246.54px;
+  width: 7.6rem;
+  height: 2.4rem;
+  left: 73.7rem;
+  top: 24.654rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .case {
   cursor: pointer;
   position: absolute;
-  width: 127px;
-  height: 24px;
-  left: 737px;
-  top: 289.54px;
+  width: 12.7rem;
+  height: 2.4rem;
+  left: 73.7rem;
+  top: 28.954rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .pricing {
   cursor: pointer;
   position: absolute;
-  width: 67px;
-  height: 24px;
-  left: 737px;
-  top: 332.54px;
+  width: 6.7rem;
+  height: 2.4rem;
+  left: 73.7rem;
+  top: 33.254rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 /* Footer Blog */
 
 .footer-blog {
   position: absolute;
-  width: 52px;
-  height: 29px;
-  left: 950px;
-  top: 147.12px;
+  width: 5.2rem;
+  height: 2.9rem;
+  left: 95rem;
+  top: 14.712rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
   color: #323b4b;
 }
 
 .b-list {
   cursor: pointer;
   position: absolute;
-  width: 112px;
-  height: 24px;
-  left: 951px;
-  top: 203.54px;
+  width: 11.2rem;
+  height: 2.4rem;
+  left: 95.1rem;
+  top: 20.354rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .b-article {
   cursor: pointer;
   position: absolute;
-  width: 111px;
-  height: 24px;
-  left: 950px;
-  top: 246.54px;
+  width: 11.1rem;
+  height: 2.4rem;
+  left: 95rem;
+  top: 24.654rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .news {
   cursor: pointer;
   position: absolute;
-  width: 103px;
-  height: 24px;
-  left: 950px;
-  top: 289.54px;
+  width: 10.3rem;
+  height: 2.4rem;
+  left: 95rem;
+  top: 28.954rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
@@ -1206,48 +1299,48 @@ footer {
 
 .footer-portfolio {
   position: absolute;
-  width: 100px;
-  height: 29px;
-  left: 1161px;
-  top: 147.12px;
+  width: 10rem;
+  height: 2.9rem;
+  left: 116.1rem;
+  top: 14.712rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
   color: #323b4b;
 }
 
 .port {
   cursor: pointer;
   position: absolute;
-  width: 82px;
-  height: 24px;
-  left: 1162px;
-  top: 203.54px;
+  width: 8.2rem;
+  height: 2.4rem;
+  left: 116.2rem;
+  top: 20.354rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
 .single {
   cursor: pointer;
   position: absolute;
-  width: 113px;
-  height: 24px;
-  left: 1161px;
-  top: 246.54px;
+  width: 11.3rem;
+  height: 2.4rem;
+  left: 116.1rem;
+  top: 24.654rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: #8a94a6;
 }
 
@@ -1255,37 +1348,37 @@ footer {
 .dribble {
   cursor: pointer;
   position: absolute;
-  width: 28px;
-  height: 28px;
-  left: 112px;
-  top: 357px;
+  width: 2.8rem;
+  height: 2.8rem;
+  left: 11.2rem;
+  top: 35.7rem;
 }
 
 .facebook {
   cursor: pointer;
   position: absolute;
-  width: 14px;
-  height: 28px;
-  left: 193px;
-  top: 356px;
+  width: 1.4rem;
+  height: 2.8rem;
+  left: 19.3rem;
+  top: 35.6rem;
 }
 
 .twitter {
   cursor: pointer;
   position: absolute;
-  width: 28px;
-  height: 22.75px;
-  left: 261px;
-  top: 358.62px;
+  width: 2.8rem;
+  height: 2.275rem;
+  left: 26.1rem;
+  top: 35.862rem;
 }
 
 .youtube {
   cursor: pointer;
   position: absolute;
-  width: 28px;
-  height: 19.77px;
-  left: 335px;
-  top: 360px;
+  width: 2.8rem;
+  height: 1.977rem;
+  left: 33.5rem;
+  top: 36rem;
 }
 /* Copyright Section */
 
@@ -1297,16 +1390,16 @@ footer {
 
 .copyright {
   position: absolute;
-  width: 441px;
-  height: 22px;
-  left: 101px;
-  top: 495.54px;
+  width: 44.1rem;
+  height: 2.2rem;
+  left: 10.1rem;
+  top: 49.554rem;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
   color: #8a94a6;
 }
 /* .vacancy-position-list {
