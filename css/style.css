@@ -16,6 +16,7 @@
   height: 5.4rem;
   padding-top: 3.9rem;
   padding-bottom: 4rem;
+  box-sizing: content-box;
 }
 
 .main-nav {
@@ -79,10 +80,19 @@
   padding-top: 10.8rem;
   padding-bottom: 10.8rem;
   font-style: normal;
+  box-sizing: content-box;
 
   display: flex;
   gap: 10.8rem;
 }
+
+/* .hero-description {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.4rem;
+} */
 
 .hero-heading {
   font-weight: 700;
@@ -117,4 +127,57 @@
 
   display: flex;
   align-items: center;
+}
+
+.hero-arrow {
+  width: 15.4rem;
+  height: 2.4rem;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding-top: 3.561rem;
+  gap: 1.5rem;
+  color: #377dff;
+
+  display: flex;
+  align-items: center;
+
+  transition: gap 0.3s;
+}
+
+.arrow-img {
+  width: 1.986rem;
+  height: 1.947rem;
+}
+
+/* Dream Job Section */
+
+.job-title {
+  width: 41.4rem;
+  height: 7.3rem;
+
+  font-weight: 700;
+  font-size: 6rem;
+  padding-top: 10.8rem;
+  padding-bottom: 3.5rem;
+  /*margin-left: 51.2rem;
+  margin-right: 51.4rem; */
+  color: #323b4b;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+
+  /* display: flex;
+  justify-content: center; */
+}
+
+.job-text {
+  width: 81rem;
+  height: 7.2rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #8a94a6;
+  padding-top: 3.5rem;
 }
