@@ -63,9 +63,9 @@
   font-weight: 600;
   font-style: normal;
   font-size: 2rem;
-  padding: 0 3.4rem;
-  margin-top: 1.6rem;
-  margin-bottom: 1.7rem;
+  margin-top: 3.8rem;
+  /* margin-top: 1.6rem;
+  margin-bottom: 1.7rem; */
   gap: 3.4rem;
   border: none;
 
@@ -449,7 +449,7 @@
   padding-right: 39.1rem;
 }
 
-.vacancy-row-1 {
+.vacancy-row {
   width: 88rem;
   height: 11.5rem;
   background: #ffffff;
@@ -501,42 +501,10 @@
   box-sizing: content-box;
 } */
 
-.vacancy-row-3 {
-  width: 88rem;
-  height: 11.5rem;
-  background: #ffffff;
-  border-radius: 1.5rem;
-  font-size: 2rem;
-  line-height: 2.4rem;
-  font-weight: 500;
-  color: #8a94a6;
-  margin-top: 2.5rem;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .customer-relations {
   font-weight: 600;
   color: #323b4b;
   padding-left: 3.2rem;
-}
-
-.vacancy-row-4 {
-  width: 88rem;
-  height: 11.5rem;
-  background: #ffffff;
-  border-radius: 1.5rem;
-  font-size: 2rem;
-  line-height: 2.4rem;
-  font-weight: 500;
-  color: #8a94a6;
-  margin-top: 2.5rem;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .react-dev {
@@ -575,6 +543,72 @@
 /*  Footer Section  */
 
 .footer-content {
+  padding-top: 14.2rem;
+
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 9.6rem;
+}
+
+.logo-column {
+  flex: 0 0 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.8rem;
+}
+
+.footer-logo {
+  height: 4.4rem;
+  width: auto;
+}
+
+.footer-logo-heading {
+  width: 28rem;
+  height: 11rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
+}
+
+.smedia-logos {
+  align-self: stretch;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+}
+
+.nav-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.footer-nav-heading {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #323b4b;
+}
+
+.nav-footer-link {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #8a94a6;
+}
+
+.copyright {
+  height: 2.2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #8a94a6;
 }
