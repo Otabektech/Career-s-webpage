@@ -3,3 +3,22 @@
 /**************************/
 @media (max-width: 144em) {
 }
+/* Below 1440px (Smaller Desktops */
+@media only screen and (max-width: 90em) {
+}
+
+/* Below 1200px (Landscape Tablets) */
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%; /* 9px */
+  }
+}
+
+/* Below 900px (Tablets) */
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%; /* 8px */
+  }
+}
