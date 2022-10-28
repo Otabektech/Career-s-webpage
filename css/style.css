@@ -165,9 +165,15 @@
   row-gap: 3.7rem;
 }
 
-.offer-card {
+.offer-card,
+.offer-card-1 {
   padding: 3.2rem 3.1rem 2.9rem 3.2rem;
   background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+
+.offer-card-1 {
+  box-shadow: 0rem 5rem 7.7rem rgba(176, 183, 195, 0.22);
 }
 
 .offer-card img {
