@@ -16,43 +16,60 @@
     <script defer src="js/script.js"></script>
     <title>Move</title>
   </head>
-  <body>
+  <body class="sticky">
     <header class="header">
       <div class="container header-content">
         <img class="logo" alt="Move logo" src="img/Logo.svg" />
 
         <nav class="main-nav">
-          <a class="home" href="#home"
-            >Home
-            <img
-              class="home-arrow"
-              src="./img/icons/chevron-down.svg"
-              alt="down-arrow"
+          <a href="#home"
+            >Home <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
-          <a class="pages" href="#pages"
-            >Pages
-            <img
-              class="pages-arrow"
-              src="./img/icons/chevron-down.svg"
-              alt="down-arrow"
+          <a href="#pages"
+            >Pages <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
-          <a class="blog" href="#blog"
-            >Blog
-            <img
-              class="blog-arrow"
-              src="./img/icons/chevron-down.svg"
-              alt="down-arrow"
+          <a href="#blog"
+            >Blog <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
 
-          <a class="portfolio" href="#Portfolio"
-            >Portfolio
-            <img
-              class="portfolio-arrow"
-              src="./img/icons/chevron-down.svg"
-              alt="down-arrow"
+          <a href="#Portfolio"
+            >Portfolio <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
 
           <button class="get-started-btn btn-primary">Get Started</button>
+          <img src="./img/icons/icon-menu 1.svg" alt="Menu" id="menu-icon" />
+        </nav>
+
+        <nav class="mobile-nav">
+          <div class="container">
+            <div class="mobile-nav__header">
+              <img src="./img/Logo.svg" alt="Move" class="nav__logo" />
+              <img
+                src="./img/icons/close-icon.svg"
+                alt="Close"
+                id="close-icon"
+              />
+            </div>
+
+            <ul class="mobile-nav__links">
+              <a href="#home"
+                >Home <img src="./img/icons/chevron-down.svg" alt="down-arrow"
+              /></a>
+              <a href="#pages"
+                >Pages <img src="./img/icons/chevron-down.svg" alt="down-arrow"
+              /></a>
+              <a href="#blog"
+                >Blog <img src="./img/icons/chevron-down.svg" alt="down-arrow"
+              /></a>
+
+              <a href="#Portfolio"
+                >Portfolio
+                <img src="./img/icons/chevron-down.svg" alt="down-arrow"
+              /></a>
+
+              <button class="get-started-btn btn-primary">Get Started</button>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>

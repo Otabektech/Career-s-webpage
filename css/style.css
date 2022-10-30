@@ -20,12 +20,6 @@
   box-sizing: content-box;
 }
 
-/* .sticky {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-} */
-
 .main-nav a {
   height: 2.4rem;
   color: #8a94a6;
@@ -56,21 +50,23 @@
 }
 
 .get-started-btn {
-  width: 17.9rem;
   height: 5.7rem;
   border-radius: 1rem;
   background-color: #377dff;
   font-weight: 600;
   font-size: 2rem;
   border: none;
+  padding: 0 3.3rem;
 
-  display: flex;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
 /* Hero Section */
+
 .hero-section {
   padding-top: 12.4rem;
   padding-bottom: 12.4rem;
@@ -428,4 +424,32 @@
   line-height: 2.2rem;
   color: #8a94a6;
   padding-bottom: 14.3rem;
+}
+
+/* nav sticky */
+
+.sticky .header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  /* box-shadow: #e5f1ff; */
+}
+
+/*  mobile navigation  */
+
+.mobile-nav {
+  width: 0%;
+  overflow: hidden;
+  position: fixed;
+  height: 100vh;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#menu-icon {
+  display: none;
 }
