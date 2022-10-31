@@ -22,25 +22,27 @@
         <img class="logo" alt="Move logo" src="img/Logo.svg" />
 
         <nav class="main-nav">
-          <a href="#home"
+          <a class="main-nav__link" href="#home"
             >Home <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
-          <a href="#pages"
+          <a class="main-nav__link" href="#pages"
             >Pages <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
-          <a href="#blog"
+          <a class="main-nav__link" href="#blog"
             >Blog <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
 
-          <a href="#Portfolio"
+          <a class="main-nav__link" href="#Portfolio"
             >Portfolio <img src="./img/icons/chevron-down.svg" alt="down-arrow"
           /></a>
 
-          <button class="get-started-btn btn-primary">Get Started</button>
+          <button class="get-started-btn btn-primary nav__cta-btn">
+            Get Started
+          </button>
           <img src="./img/icons/icon-menu 1.svg" alt="Menu" id="menu-icon" />
         </nav>
 
-        <nav class="mobile-nav">
+        <nav class="mobile-nav mobile-nav--show">
           <div class="container">
             <div class="mobile-nav__header">
               <img src="./img/Logo.svg" alt="Move" class="nav__logo" />
@@ -52,22 +54,23 @@
             </div>
 
             <ul class="mobile-nav__links">
-              <a href="#home"
-                >Home <img src="./img/icons/chevron-down.svg" alt="down-arrow"
-              /></a>
-              <a href="#pages"
-                >Pages <img src="./img/icons/chevron-down.svg" alt="down-arrow"
-              /></a>
-              <a href="#blog"
-                >Blog <img src="./img/icons/chevron-down.svg" alt="down-arrow"
-              /></a>
+              <li>
+                <a class="mobile-nav__link" href="#home">Home </a>
+              </li>
+              <li>
+                <a class="mobile-nav__link" href="#pages">Pages </a>
+              </li>
+              <li>
+                <a class="mobile-nav__link" href="#blog">Blog </a>
+              </li>
 
-              <a href="#Portfolio"
-                >Portfolio
-                <img src="./img/icons/chevron-down.svg" alt="down-arrow"
-              /></a>
+              <li>
+                <a class="mobile-nav__link" href="#Portfolio">Portfolio </a>
+              </li>
 
-              <button class="get-started-btn btn-primary">Get Started</button>
+              <button class="get-started-btn btn-primary mobile-nav__cta">
+                Get Started
+              </button>
             </ul>
           </div>
         </nav>
