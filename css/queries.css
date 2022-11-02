@@ -8,6 +8,10 @@
   html {
     font-size: 56.25%; /* 9px */
   }
+
+  .container {
+    padding: 0 8rem;
+  }
 }
 
 /* Below 900px (Tablets) */
@@ -36,7 +40,7 @@
   }
 
   #close-icon {
-    height: 2.5rem;
+    height: 4.1rem;
   }
 
   .mobile-nav--show {
@@ -44,7 +48,7 @@
   }
 
   .mobile-nav__header {
-    height: 9.6remx;
+    height: 9.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,3 +81,24 @@
   }
 }
 /*  Mobile-nav   */
+
+@media only screen and (max-width: 43.75em) {
+  html {
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .offer-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.9rem;
+  }
+  .dream-job {
+    display: flex;
+    flex-direction: column;
+  }
+}
