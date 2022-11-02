@@ -65,13 +65,13 @@
   padding-bottom: 12.4rem;
 }
 
-.hero-content {
+.hero-section-content {
   display: flex;
   align-items: center;
   gap: 10.8rem;
 }
 
-.hero-heading {
+.hero-section-heading {
   font-weight: 700;
   font-size: 6rem;
   line-height: 7.3rem;
@@ -80,7 +80,7 @@
   margin-bottom: 3.4rem;
 }
 
-.hero-text {
+.hero-section-subheading {
   font-weight: 500;
   font-size: 2rem;
   line-height: 3.5rem;
@@ -89,7 +89,7 @@
   margin-bottom: 3.6rem;
 }
 
-.hero-img-wrapper {
+.hero-section-img-wrapper {
   position: relative;
 }
 
@@ -100,7 +100,7 @@
   cursor: pointer;
 }
 
-.hero-img {
+.hero-section-img {
   width: 100%;
   height: auto;
   color: #8a94a6;
@@ -109,7 +109,7 @@
   border-radius: 1.5rem;
 }
 
-.hero-cta {
+.hero-section-cta {
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.4rem;
@@ -120,14 +120,14 @@
   gap: 1.5rem;
 }
 
-/* Our Offer Section */
+/* Offer Section */
 
 .offer-section {
   background-color: #fafbfc;
   padding: 10.8rem 0;
 }
 
-.offer-heading {
+.offer-section-heading {
   font-weight: 700;
   font-size: 6rem;
   color: #323b4b;
@@ -136,7 +136,7 @@
   margin-bottom: 3.5rem;
 }
 
-.offer-subheading {
+.offer-section-subheading {
   font-weight: 500;
   font-size: 2rem;
   line-height: 3.5rem;
@@ -154,24 +154,19 @@
   row-gap: 3.7rem;
 }
 
-.offer-card,
-.offer-card-1 {
+.offer-card {
   padding: 3.2rem 3.1rem 2.9rem 3.2rem;
   background-color: #ffffff;
   border-radius: 1.5rem;
 }
 
-.offer-card-1 {
+.offer-card:hover {
   box-shadow: 0rem 5rem 7.7rem rgba(176, 183, 195, 0.22);
 }
 
 .offer-card img {
   height: 8rem;
   width: 8rem;
-  margin-bottom: 2.9rem;
-}
-
-.offer-card-1 img {
   margin-bottom: 2.9rem;
 }
 
@@ -183,10 +178,9 @@
   margin-bottom: 2.1rem;
 }
 
-.offer-card-text {
+.offer-card-subheading {
   font-weight: 500;
   font-size: 1.8rem;
-  /* height: 6rem; */
   line-height: 3rem;
   color: #8a94a6;
   margin-bottom: 2.1rem;
@@ -194,24 +188,29 @@
 
 /* Dream Job Section */
 
+.dream-job-section {
+  padding-top: 14.2rem;
+  padding-bottom: 14.2rem;
+}
+
 .dream-job-section-content {
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 13.8rem;
 }
 
-.dream-job-img {
+.dream-job-section-img {
   width: 100%;
   height: auto;
-
-  padding-top: 14.2rem;
-  padding-bottom: 14.2rem;
   border-radius: 1.5rem;
+  color: #8a94a6;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.dream-job-heading {
+.dream-job-section-heading {
   font-weight: 700;
   font-size: 6rem;
   line-height: 7.3rem;
@@ -219,7 +218,7 @@
   margin-bottom: 3.1rem;
 }
 
-.dream-job-text {
+.dream-job-section-subheading {
   font-weight: 500;
   font-size: 2rem;
   line-height: 3.5rem;
@@ -228,12 +227,12 @@
 
 /*  Vacancy Section  */
 
-.vacancy-section {
+.vacancy-section-content {
   background-color: #fafbfc;
   padding: 12.5rem;
 }
 
-.vacancy-heading {
+.vacancy-section-heading {
   font-weight: 700;
   font-size: 6rem;
   text-align: center;
@@ -241,7 +240,7 @@
   margin-bottom: 3.5rem;
 }
 
-.vacancy-description {
+.vacancy-section-subheading {
   width: 76.9rem;
   font-weight: 500;
   font-size: 2rem;
@@ -296,7 +295,8 @@
   color: #323b4b;
 }
 
-.vacancy-text {
+.vacancy-type,
+.vacancy-location {
   font-weight: 500;
   font-size: 2rem;
   color: #8a94a6;
@@ -337,7 +337,7 @@
   margin-bottom: 9.6rem;
 }
 
-.logo-column {
+.footer-logo-column {
   flex: 0 0 30rem;
   display: flex;
   flex-direction: column;
@@ -345,10 +345,10 @@
   gap: 2.8rem;
 }
 
-.footer-logo {
-  height: 4.4rem;
+/* .footer-logo {
+  height: auto;
   width: auto;
-}
+} */
 
 .footer-logo-heading {
   width: 28rem;
@@ -359,7 +359,7 @@
   color: #8a94a6;
 }
 
-.smedia-logos {
+.footer-smedia-logos {
   align-self: stretch;
   display: flex;
   gap: 2.5rem;
@@ -402,11 +402,10 @@
 
 /* nav sticky */
 
-.sticky .header {
+.header .sticky {
   position: sticky;
   top: 0;
   z-index: 999;
-  /* box-shadow: #e5f1ff; */
 }
 
 /*  mobile navigation  */
