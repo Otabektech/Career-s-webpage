@@ -6,19 +6,20 @@
 
 @media only screen and (max-width: 75em) {
   html {
-    font-size: 56.25%; /* 9px */
+    font-size: 50%; /* 8px */
   }
-  .main-nav__link {
-    display: none;
-  }
+}
 
-  .nav__cta-btn {
-    display: none;
-  }
-
+@media only screen and (max-width: 64em) {
   /* ---------- Nav---------- */
+  html {
+    font-size: 50%; /*  8px  */
+  }
+  .main-nav {
+    display: none;
+  }
 
-  #menu-icon {
+  #hamburger-icon {
     display: block;
     cursor: pointer;
     height: 4.1rem;
@@ -32,12 +33,12 @@
     width: auto;
   }
 
-  /* .mobile-nav--show {
+  .mobile-nav--show {
     width: 100%;
-  } */
+  }
 
   .mobile-nav__header {
-    height: 9.6rem;
+    height: 13.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,6 +68,11 @@
 
   .mobile-nav__cta {
     text-align: center;
+  }
+
+  .offer-section-subheading,
+  .vacancy-section-subheading {
+    max-width: 68.4rem;
   }
 }
 
@@ -114,11 +120,20 @@
     justify-items: center;
   }
 
+  .btn-resume {
+    height: 10.1rem;
+    padding: 0;
+  }
+
   .footer-logo-column {
     margin-bottom: 12.4rem;
   }
 
   #footer-portfolio {
     display: none;
+  }
+
+  #nav-footer-margin {
+    margin-bottom: 2.7rem;
   }
 }

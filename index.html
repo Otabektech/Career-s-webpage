@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/queries.css" />
 
-    <script defer src="js/script.js"></script>
+    <script src="./js/script.js"></script>
     <title>Move</title>
   </head>
   <body>
@@ -39,10 +39,10 @@
           <button class="get-started-btn btn-primary nav__cta-btn">
             Get Started
           </button>
-          <img src="./img/icons/icon-menu 1.svg" alt="Menu" id="menu-icon" />
         </nav>
+        <img src="./img/icons/icon-menu 1.svg" alt="Menu" id="hamburger-icon" />
 
-        <nav class="mobile-nav mobile-nav--show">
+        <nav class="mobile-nav">
           <div class="container">
             <div class="mobile-nav__header">
               <img src="./img/Logo.svg" alt="Move" class="nav__logo" />
@@ -157,11 +157,9 @@
 
     <section class="dream-job-section">
       <div class="container dream-job-section-content">
-        <img
-          class="dream-job-section-img"
-          src="img/Image-10.png"
-          alt="sitting-men"
-        />
+        <div class="dream-job-section-image-wrapper">
+          <img src="img/Image-10.png" alt="sitting-men" />
+        </div>
 
         <div class="dream-job-section-description">
           <h3 class="dream-job-section-heading">
@@ -246,7 +244,7 @@
 
           <div class="nav-footer">
             <p class="footer-nav-heading"><strong>Home</strong></p>
-            <ul>
+            <ul id="nav-footer-margin">
               <li><a href="#" class="nav-footer-link">Desktop App</a></li>
               <li><a href="#" class="nav-footer-link">Mobile App</a></li>
               <li><a href="#" class="nav-footer-link">SaaS</a></li>
