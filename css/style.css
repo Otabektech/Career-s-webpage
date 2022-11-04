@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.logo {
+  width: auto;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -143,7 +147,6 @@
   text-align: center;
   color: #8a94a6;
   margin: 0 auto;
-  width: 81rem;
   margin-bottom: 8.1rem;
 }
 
@@ -241,7 +244,6 @@
 }
 
 .vacancy-section-subheading {
-  width: 76.9rem;
   font-weight: 500;
   font-size: 2rem;
   line-height: 35px;
@@ -263,7 +265,7 @@
 }
 
 .vacancies {
-  width: 88rem;
+  /* width: 88rem; */
   margin: 0 auto;
   margin-bottom: 9.2rem;
 }
@@ -291,7 +293,6 @@
 .vacancy-positions {
   font-weight: 600;
   font-size: 2rem;
-  height: 2.4rem;
   color: #323b4b;
 }
 
@@ -392,7 +393,6 @@
 }
 
 .copyright {
-  height: 2.2rem;
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.2rem;
