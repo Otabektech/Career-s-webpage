@@ -2,8 +2,8 @@
 // Set current year
 console.log("hello world");
 
-// const headerElement = document.querySelector("#header");
-// const navElement = document.querySelector(".nav");
+// const headerElement = document.querySelector(".header");
+// const navElement = document.querySelector(".main-nav");
 // let options = {
 //   root: null,
 //   rootMargin: `-150px`,
@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
   closeIcon.addEventListener("click", function () {
     mobileNav.classList.remove("mobile-nav--show");
   });
+
   const yearEl = document.querySelector(".year");
   const currentYear = new Date().getFullYear();
   yearEl.textContent = currentYear;

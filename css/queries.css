@@ -10,13 +10,20 @@
   }
 }
 
+/* Below 1024px (Landscape Tablets) */
+
 @media only screen and (max-width: 64em) {
   /* ---------- Nav---------- */
-  html {
-    font-size: 50%; /*  8px  */
-  }
   .main-nav {
     display: none;
+  }
+
+  .hero-section-heading,
+  .offer-section-heading,
+  .dream-job-section-heading,
+  .vacancy-section-heading {
+    font-size: 4rem;
+    line-height: 5.5rem;
   }
 
   #hamburger-icon {
@@ -70,9 +77,15 @@
     text-align: center;
   }
 
+  .btn-resume {
+    padding-left: 7.3rem;
+    padding-right: 7.3rem;
+  }
+
   .offer-section-subheading,
   .vacancy-section-subheading {
     max-width: 68.4rem;
+    line-height: 3.5rem;
   }
 }
 
@@ -82,6 +95,15 @@
   html {
     font-size: 50%; /* 8px */
   }
+
+  .container {
+    padding: 0 8rem;
+  }
+
+  .vacancy-section .vacancy-section-content {
+    padding-top: 8.8rem;
+    padding-bottom: 8.3rem;
+  }
 }
 
 /* Below 768px (Smaller Tablets) */
@@ -89,12 +111,19 @@
 @media only screen and (max-width: 48em) {
   html {
     font-size: 43.75%; /* 7px */
-    padding: 0 2rem;
-    margin: 0 auto;
+  }
+
+  .container {
+    padding: 0 6rem;
   }
 }
 
+/* Below 480px (Mobile Phones) */
+
 @media only screen and (max-width: 30em) {
+  .container {
+    padding: 0 4rem;
+  }
   .hero-section-content,
   .dream-job-section-content {
     display: flex;
@@ -118,19 +147,11 @@
     row-gap: 2.2rem;
     align-items: center;
     justify-items: center;
-  }
-
-  .btn-resume {
-    height: 10.1rem;
-    padding: 0;
+    padding: 3.2rem;
   }
 
   .footer-logo-column {
     margin-bottom: 12.4rem;
-  }
-
-  #footer-portfolio {
-    display: none;
   }
 
   #nav-footer-margin {
