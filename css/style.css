@@ -342,9 +342,12 @@
 
 /*  Footer Section  */
 
-.footer-content {
+.footer {
   padding-top: 14.7rem;
+  padding-bottom: 14.3rem;
+}
 
+.footer-content {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -365,8 +368,6 @@
 } */
 
 .footer-logo-heading {
-  width: 28rem;
-  height: 11rem;
   font-weight: 500;
   font-size: 2rem;
   line-height: 3.5rem;
@@ -410,7 +411,6 @@
   font-size: 1.8rem;
   line-height: 2.2rem;
   color: #8a94a6;
-  padding-bottom: 14.3rem;
 }
 
 /* nav sticky */
