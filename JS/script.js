@@ -1,9 +1,7 @@
-///////////////////////////////////////////////////////////
-// Set current year
 console.log("hello world");
 
-// const headerElement = document.querySelector(".header");
-// const navElement = document.querySelector(".main-nav");
+// const headerElement = document.querySelector("#hero");
+// const navElement = document.querySelector(".header");
 // let options = {
 //   root: null,
 //   rootMargin: `-150px`,
@@ -39,7 +37,26 @@ document.addEventListener("DOMContentLoaded", function (e) {
     mobileNav.classList.remove("mobile-nav--show");
   });
 
+  ///////////////////////////////////////////////////////////
+  // Set current year
+
   const yearEl = document.querySelector(".year");
   const currentYear = new Date().getFullYear();
   yearEl.textContent = currentYear;
+
+  window.onscroll = function () {
+    myFunction();
+  };
+
+  var header = document.getElementById("header");
+
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
 });
