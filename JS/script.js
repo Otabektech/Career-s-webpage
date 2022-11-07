@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", function (e) {
   const currentYear = new Date().getFullYear();
   yearEl.textContent = currentYear;
 
+  ///// Sticky NavBar /////
+
   window.onscroll = function () {
     myFunction();
   };
