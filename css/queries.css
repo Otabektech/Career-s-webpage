@@ -26,6 +26,11 @@
     line-height: 5.5rem;
   }
 
+  .button-play {
+    max-width: 7rem;
+    height: 7rem;
+  }
+
   #hamburger-icon {
     display: block;
     cursor: pointer;
@@ -100,6 +105,11 @@
     padding: 0 8rem;
   }
 
+  .button-play {
+    width: 5rem;
+    height: 5rem;
+  }
+
   .vacancy-section .vacancy-section-content {
     padding-top: 8.8rem;
     padding-bottom: 8.3rem;
@@ -120,6 +130,11 @@
 
   .container {
     padding: 0 6rem;
+  }
+
+  .button-play {
+    width: 7rem;
+    height: 7rem;
   }
 }
 
