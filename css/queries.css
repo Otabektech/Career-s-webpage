@@ -107,6 +107,7 @@
 
   .footer-logo-column {
     flex: 100%;
+    margin-bottom: 3.2rem;
   }
 }
 
@@ -159,11 +160,19 @@
     padding-bottom: 8.5rem;
   }
 
+  .footer-content {
+    gap: 3.2rem;
+  }
+
   .footer-logo-column {
     margin-bottom: 3.2rem;
   }
 
   #nav-footer-margin {
     margin-bottom: 2.7rem;
+  }
+
+  .nav-footer-link {
+    font-size: 1.8rem;
   }
 }
