@@ -1,4 +1,23 @@
 /* Below 1440px (Smaller Desktops */
+/*  mobile navigation  */
+
+.mobile-nav {
+  width: 0%;
+  overflow: hidden;
+  position: fixed;
+  height: 100vh;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#hamburger-icon {
+  display: none;
+}
+
 @media only screen and (max-width: 90em) {
 }
 
