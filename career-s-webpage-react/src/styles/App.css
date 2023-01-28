@@ -1,0 +1,423 @@
+/* Header */
+
+.header {
+  height: 13.3rem;
+  background-color: #fff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-nav__link {
+  color: #8a94a6;
+  font-weight: 600;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-nav__link img {
+  width: 1.2rem;
+  height: 0.6rem;
+}
+
+.btn-primary {
+  background-color: #377dff;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #1366ff;
+}
+
+.get-started-btn {
+  height: 5.7rem;
+  border-radius: 1rem;
+  background-color: #377dff;
+  font-weight: 600;
+  font-size: 2rem;
+  border: none;
+  padding: 0 3.3rem;
+
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Hero Section */
+
+.hero-section {
+  padding-top: 12.4rem;
+  padding-bottom: 12.4rem;
+}
+
+.hero-section-description {
+  flex: 1;
+}
+
+.hero-section-content {
+  display: flex;
+  align-items: center;
+  gap: 10.8rem;
+}
+
+.hero-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.3rem;
+  color: #323b4b;
+  margin-bottom: 3.4rem;
+}
+
+.hero-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
+  margin-bottom: 3.6rem;
+}
+
+.hero-section-img-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.button-play {
+  position: absolute;
+  top: 4.6rem;
+  left: 4.4rem;
+  cursor: pointer;
+}
+
+.hero-section-img {
+  width: 100%;
+  height: auto;
+  color: #8a94a6;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+}
+
+.hero-section-cta {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #377dff;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Offer Section */
+
+.offer-section {
+  background-color: #fafbfc;
+  padding: 10.8rem 0;
+}
+
+.offer-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  color: #323b4b;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+
+.offer-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  max-width: 81rem;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #8a94a6;
+  margin: 0 auto;
+  margin-bottom: 8.1rem;
+}
+
+.offer-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 3.7rem;
+}
+
+.offer-card {
+  padding: 3.2rem 3.1rem 2.9rem 3.2rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+
+.offer-card:hover {
+  box-shadow: 0rem 5rem 7.7rem rgba(176, 183, 195, 0.22);
+}
+
+.offer-card img {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 2.9rem;
+}
+
+.offer-card-heading {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  color: #323b4b;
+  margin-bottom: 2.1rem;
+}
+
+.offer-card-subheading {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #8a94a6;
+  margin-bottom: 2.1rem;
+}
+
+/* Dream Job Section */
+
+.dream-job-section {
+  padding-top: 14.2rem;
+  padding-bottom: 14.2rem;
+}
+
+.dream-job-section-content {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13.8rem;
+}
+
+.dream-job-section-image-wrapper {
+  flex: 1;
+}
+
+.dream-job-section-image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+  color: #8a94a6;
+  background: #c4c4c4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dream-job-section-description {
+  flex: 1;
+}
+
+.dream-job-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 7.3rem;
+  color: #323b4b;
+  margin-bottom: 3.1rem;
+}
+
+.dream-job-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
+}
+
+/*  Vacancy Section  */
+
+.vacancy-section-content {
+  background-color: #fafbfc;
+  padding: 12.5rem;
+}
+
+.vacancy-section-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  text-align: center;
+  color: #323b4b;
+  margin-bottom: 3.5rem;
+}
+
+.vacancy-section-subheading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 7.8rem;
+  color: #8a94a6;
+  margin: 0 auto;
+  margin-bottom: 7.7rem;
+  max-width: 76.9rem;
+}
+
+.vacancy {
+  height: 11.5rem;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 45% 30% 25%;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1.5rem;
+}
+
+.vacancies {
+  /* width: 88rem; */
+  margin: 0 auto;
+  margin-bottom: 9.2rem;
+}
+
+.vacancy:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.vacancy:hover {
+  box-shadow: 0rem 5rem 7.7rem rgba(176, 183, 195, 0.22);
+}
+
+.vacancy-categories {
+  font-weight: 600;
+  font-size: 2.4rem;
+  padding: 0 3.2rem;
+  color: #323b4b;
+  margin-bottom: 2rem;
+
+  display: grid;
+  grid-template-columns: 45% 30% 25%;
+  align-items: center;
+}
+
+.vacancy-positions {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #323b4b;
+}
+
+.vacancy-type,
+.vacancy-location {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #8a94a6;
+}
+
+.btn-secondary {
+  background-color: #e5f1ff;
+  color: #377dff;
+  transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #c4d4f3;
+}
+
+.btn-resume {
+  height: 6.6rem;
+  font-weight: 600;
+  font-size: 2rem;
+  background-color: #e5f1ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  padding: 0 10.3rem;
+
+  display: block;
+  margin: 0 auto;
+}
+
+/*  Footer Section  */
+
+.footer {
+  padding-top: 14.7rem;
+  padding-bottom: 14.3rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 9.6rem;
+}
+
+.footer-logo-column {
+  flex: 0 0 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.8rem;
+}
+
+/* .footer-logo {
+  height: auto;
+  width: auto;
+} */
+
+.footer-logo-heading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  color: #8a94a6;
+}
+
+.footer-smedia-logos {
+  align-self: stretch;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+}
+
+.nav-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.footer-nav-heading {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #323b4b;
+}
+
+.nav-footer-link {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #8a94a6;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #8a94a6;
+}
+
+/* nav sticky */
+
+#header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}
